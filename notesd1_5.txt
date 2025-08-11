@@ -1,0 +1,29 @@
+pwd -  print working directory - shows the current directory
+ls - lists all the folders in the current directory
+cd - change directory //cs Name_of_Directory
+cd .. -  go up
+cd.-stay in current directory
+arrow up/down - history of commands
+python3 - starts a python environment -- can do normal python opperations
+open folder -> python3 -m http.server 8000 -> opens server on 8000
+	can be found w/ 0.0.0.0:8000
+head tag is used for the general info regarding the page
+body tag used for the actual context
+head and body don't actually change anything
+Sigma2025 pwd
+<ul> for unnumbered lists
+    <li> for lsit elements
+<a> - anchor - link - to something within the folder / 
+    something that is not on your ccomputer
+    href = link for outside element
+<div> - tag used for grouping elements together
+<img src="...">
+    //src and href are a standard, there is little difference between them
+style-"..." - inline css
+<link href="doc name" rel="stylesheet"> - apply style to html; rel = doc type
+//try to view the page from an outside computer
+display: flex; - allows to change the structure of the page - everythign should collapse
+flex-direction: column; -- arranges all elements into a column
+to address a specific class: .classname
+padding and margins used to create space between elements
+Exercise: menu on the left with links as a lists
