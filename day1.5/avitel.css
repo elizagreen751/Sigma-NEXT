@@ -1,0 +1,15 @@
+.menu{
+    width: 25%;
+    height: 6em;
+    background-color: rgb(189, 189, 255);
+    font-size: 80px;
+}
+body{
+    display:flex;
+    flex-direction: row;
+}
+.objects{
+    background-color: rgb(255, 190, 190);
+    padding: 5%;
+    width: 75%;
+}
