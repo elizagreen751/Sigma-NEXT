@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="client.js"" defer></script>
+        <link rel="stylesheet" href="wordle.css">
+        <!-- <link rel="stylesheet" href="day2.css"> -->
+        <title>WORDLE</title>
+        <!-- <link rel="icon" href="Screenshot from 2025-08-12 09-15-25.png"> -->
+    </head>
+    <body id="body">
+        <div id="main-container">
+            <h1>WORDLE</h1>
+            <button id="submit">Submit</button>
+            <table id="template" style="display: none;">
+                <tr>
+                    <td> 
+                        <input type="text" maxlength="1" class="texter">
+                    </td>
+                    <td>
+                        <input type="text" maxlength="1" class="texter">
+                    </td>
+                    <td>
+                        <input type="text" maxlength="1" class="texter">
+                    </td>
+                    <td>
+                        <input type="text" maxlength="1" class="texter">
+                    </td>
+                    </td>
+                    <td>
+                        <input type="text" maxlength="1" class="texter">
+                    </td>
+                </tr>
+            </table>
+            <div id="wordle_board" style="display: none;">
+                <h3>wordle_board</h3>
+                <!-- change display when it should be shown -->
+            </div>
+            <div id="leaderboard-form" style="display: none;">
+                <h3>leaderboard</h3>
+                <input type="text" id="leaderboard-name">
+                <button id="leaderboard-submit">Add to leaderboard</button>
+            </div>
+            <div id="leaderboard-success" style="display: none;">
+                <button id="new game">New Game</button>
+                <button id="go-to-leaderboard">Go To Leaderboard</button>
+            </div>
+            <div id="add_to_leaderboard_success_message" style="display: none;">
+                <h3>Your name was successfully added!</h3>
+            </div>
+        </div>
+        <div id="leaderboard" style="display: none;">
+            <table id="leaderboard-table">
+                <tr>
+                    <th>
+                        <h3> WORDLE Leaderboard</h3>
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

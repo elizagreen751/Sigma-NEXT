@@ -1,0 +1,4 @@
+npm init --yes (creates a json file in the current folder)
+add "type": "module", to first {}
+    -> allows for different usage of libraries.
+node script.js - runs file in terminal

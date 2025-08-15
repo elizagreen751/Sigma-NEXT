@@ -1,0 +1,14 @@
+input{
+    border-radius: 7px;
+    border-width: 3px;
+    border-color: #7b1fa2;
+    font-size: 50px;
+    color:rgb(68, 0, 59);
+    text-align: center;
+    cursor: text;
+}
+    
+.texter{
+    width:80px;
+    height:80px;}
+
